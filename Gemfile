@@ -30,6 +30,7 @@ gem 'newrelic_rpm'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
 gem 'slim-rails'
+gem 'devise'
 
 # Assets
 gem 'autoprefixer-rails'

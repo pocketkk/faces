@@ -22,7 +22,8 @@ html lang=I18n.locale.to_s
 
   body
     == render 'shared/navbar'
-
+    p class='notice' =notice
+    p class='alert' =alert
     #main-container.container= yield
 
     == render 'shared/footer'
